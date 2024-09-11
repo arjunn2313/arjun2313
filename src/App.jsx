@@ -6,6 +6,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
+import Tour from "./components/portfolio/Tour";
 import Services from "./components/services/Services";
 
 const App = () => {
@@ -27,8 +28,14 @@ const App = () => {
       </section>
       <Portfolio />
       <section id="Contact">
+        {/* <Contact /> */}
+        <Tour />
+      </section>
+
+      <section id="Contact">
         <Contact />
       </section>
+
       {/* Framer Motion Crash Course */}
       {/* <Test/>
     <Test/> */}

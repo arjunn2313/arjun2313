@@ -100,6 +100,7 @@
     display: flex;
     max-width: 1366px;
     margin: auto;
+    
 
     @include mobile {
       flex-direction: column;
@@ -112,6 +113,10 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      text-align: center;
+      align-items: center;
+
+     
 
       @include mobile {
         border: none;
@@ -121,6 +126,7 @@
       }
 
       p {
+        font-size: 15px;
         @include mobile {
           display: none;
         }
